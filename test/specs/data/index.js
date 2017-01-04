@@ -1,3 +1,3 @@
 module.exports = {
-    "title": "Data Delivery : brandon.clark"
+    "title": "foobar : foo.bar"
 };

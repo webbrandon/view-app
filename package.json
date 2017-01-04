@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node server.js",
-    "test": "wdio wdio.conf.js"
+    "start": "node bin/www.js",
+    "test": "nohup supervisor node bin/www-dev.js &",
+    "posttest": "wdio wdio.conf.js"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
